@@ -12,10 +12,10 @@ import java.util.List;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class UserDTO {
 
-    private String id;
+    private Long id;
     private String name;
     private String email;
     private String phoneNumber;
     private String role;
-    private List<Booking>  bookings=new ArrayList<>();
+    private List<BookingDTO>  bookings=new ArrayList<>();
 }
