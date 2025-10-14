@@ -3,6 +3,7 @@ package com.melikatilla.MyHotel.dto;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 @Data
@@ -10,7 +11,7 @@ import java.util.List;
 public class RoomDTO {
     private Long id;
     private String roomType;
-    private String roomPrice;
+    private BigDecimal roomPrice;
     private String roomDescription;
     private String roomPhotoUrl;
 
